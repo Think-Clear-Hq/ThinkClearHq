@@ -9,9 +9,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   // Fix for GitHub Pages 404
   basePath: "/ThinkClearHq",
   assetPrefix: "/ThinkClearHq",
