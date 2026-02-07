@@ -15,7 +15,7 @@ export function Navbar() {
     ];
 
     return (
-        <header className="fixed top-0 w-full z-50 border-b border-glass-border bg-black/50 backdrop-blur-md">
+        <header className="fixed top-0 w-full z-50 border-b border-glass-border bg-black/50 backdrop-blur-md transform-gpu [backface-visibility:hidden]">
             <Container className="flex h-16 items-center justify-between">
                 <Link
                     href="/"
